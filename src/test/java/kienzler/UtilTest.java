@@ -8,7 +8,7 @@ public class UtilTest {
 
 	@Test
 	public void testIstErstesHalbjahr() {
-		boolean test = Util.istErstesHalbjahr(2);
+		boolean test = Util.istErstesHalbjahr(8);
 		
 		if(test){
 			fail("Falsches halbjahr");
